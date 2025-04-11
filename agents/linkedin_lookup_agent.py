@@ -11,8 +11,7 @@ import sys
 import os
 
 load_dotenv()
-sys.path.append(os.path.abspath("/home/shady/ice_breaker/"))
-print(sys.path)
+
 from tools.tools import get_profile_url_tavily
 
 
